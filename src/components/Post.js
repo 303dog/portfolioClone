@@ -7,7 +7,7 @@ export default function Post() {
     const [postData, setPost] = useState(null);
 
     useEffect(() => {
-        sanityClient                            //grock
+        sanityClient                            //groq
             .fetch(
                 `*[_type == "post"] {
                     title,

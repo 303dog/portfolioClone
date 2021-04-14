@@ -2,13 +2,13 @@ export default {
     name: 'project',
     title: 'Project',
     type: 'document',
-    field: [
+    fields: [
         {
             name: 'title',
             type: 'string',
         },
         {
-            name: 'data',
+            name: 'date',
             type: 'datetime',
         },
         {
@@ -25,10 +25,29 @@ export default {
             type: 'string',
             options: {
                 list: [
-                    { value: 'personal', title: 'Personal'},   
-                ]
-            }
-        }
-
-    ]
-}
+                    { value: 'personal', title: 'Personal'},
+                    { value: 'school', title: 'School'},
+                    { value: 'cleint', title: 'Client'},   
+                    { value: 'projecy-size', title: 'Project Size'},
+                    { value: 'category', title: 'Category'},
+                ],
+            },
+        },
+        {
+            name: 'link',
+            type: 'url',
+        },
+        {
+            name: 'tags',
+            type: 'array',
+            of: [
+                {
+                    type: 'string',
+                },
+            ],
+            options: {
+                layout: 'tags',
+            },
+        },
+    ],
+};
