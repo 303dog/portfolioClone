@@ -1,5 +1,16 @@
 # Getting Started with Create React App
 
+Tailwind CSS
+React-Browser-Router
+React-Social_icons
+React.js 
+/cust-portfolio/ npm start
+Sanityio
+/studio/ sanity start
+images held in "./src"
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
