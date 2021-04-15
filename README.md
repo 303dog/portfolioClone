@@ -8,7 +8,8 @@ React.js
 Sanityio
 /studio/ sanity start
 images held in "./src"
-
+npm install @sanity/image-url
+npm install @sanity/block-content-to-react
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
